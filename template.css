@@ -1,0 +1,25 @@
+* {
+	/* --headerFontSize: 2rem; */
+	--headerPadding: 0.5rem;
+	/* --footerFontSize: 1rem; */
+	--footerPadding: 1rem;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	background-color: aqua;
+}
+
+main {
+	background-color: blanchedalmond;
+	height: calc(100vh - 100px);
+	overflow-y: auto;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: hotpink;
+}
